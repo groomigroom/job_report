@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 140%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+    letter-spacing: -0.02em;
+    color: #252525;
+}
+
+/*1쪽입니다.*/
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fdfdfd;
+    position: relative;
+
+}
+
+.one_part {
+    width: 415px;
+    height: 132px;
+    background-color: #252525;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.one_part>h1 {
+    font-size: 66px;
+    width: 349px;
+    color: #fdfdfd;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.one_part2 {
+    width: 283px;
+    position: absolute;
+    bottom: 264px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+/*2쪽입니다.*/
+.two_part {
+    width: calc(100vw - 66px);
+    height: calc(100vh - 66px);
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.two_part>div:nth-child(1) {
+    width: calc(100vw - 66px);
+    height: 99px;
+    background-color: #252525;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section>.two_part>div:nth-child(1)>h2 {
+    color: #fdfdfd;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 33px;
+}
+
+section>.two_part>div:nth-child(2) {
+    width: calc(100vw - 66px);
+    height: calc(100vh - 165px);
+    border: 5px solid #252525;
+    position: absolute;
+    top: 99px;
+    left: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+section>.two_part>div:nth-child(2)>p {
+    width: 1722px;
+    font-size: 27px;
+    font-weight: 500;
+    position: absolute;
+    top: 33px;
+    left: 33px;
+    line-height: 140%;
+}
+
+/*10쪽입니다.*/
+
+.ten_part {
+    width: 362px;
+    height: 132px;
+    background-color: #252525;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.ten_part>h1 {
+    width: 296px;
+    font-size: 66px;
+    color: #fdfdfd;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
